@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Profile Card Component </title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body{
+        font-size: 18px;
+        color: black;
+      }
+      .main{
+        background-image: url(bg-pattern-top.svg);
+        background-color: lightblue;
+        min-height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+       .container{
+        background-color: white;
+        text-align: center;
+        max-width: 350px;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+    .top-container{
+        background-image: url(bg-pattern-card.svg);
+        height: 150px;
+        width: 350;
+    }
+    .image-ii{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: -50px auto -30px auto;
+    }
+    .image-ii img{
+        display: block;
+        height: auto;
+        width: 100px;
+    }
+    .inform{
+        height: 250px;
+        line-height: 1.8rem;
+        margin-top: 54px;
+        margin-bottom: -75px;
+        color: black;
+    }
+    .feedback{
+        border-top: 0.5px solid black;
+        padding-top: 22px;
+        padding-right: 40px;
+        display: flex;
+        margin-top: 23px;
+        align-items: center;
+        padding-left: 40px;
+        flex-direction: row;
+        gap: 10px;
+
+    }
+</style>
+</head>
+<body>
+    <section class="main">
+        <div class="container">
+
+            <div class="top-container"></div>
+            <div class="image-ii"><img src="image-victor.jpg" alt=""></div>
+            <div class="inform">
+
+                <h2>Victor Crest 26</h2>
+                <h2>London</h2>
+
+                <div class="feedback">
+                    <h5>80K <br>
+                     Followers</h5>
+                    <h5>1M <br>Likes</h5>
+                    <h5>5K <br>Photos</h5>
+                </div>
+
+            </div>
+        </div>
+        
+    </section>
+    
+    <div class="container">
+
+    </div>
+</body>
+</html>
