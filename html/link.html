@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            color: rgb(172, 54, 99);
+            height: 50px;
+            width: 40px;
+            /* background-color: red; */
+            text-align: center;
+            border: 5px;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .button-container{
+            text-align: center;
+        }
+        .animated-button{
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+        
+        .animated-button:link{
+            color: black;
+            text-decoration: none;
+            border: 5px solid white;
+        }
+        .animated-button:visited{
+            color: green;
+        }
+         .animated-button:hover{ 
+            color: aqua;
+            border: 3px solid burlywood;
+            transition: all 1.0s ease-in-out ;
+
+        } 
+        .animated-button:active{
+            color: blueviolet;
+        
+        }
+        .animated-button:focus{
+              color: red;
+              border: 5px ;
+              border-style:dashed;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="button container">
+        <button class="animated-button">
+            <a href="https://www.instagram.com/">instagram</a>
+        </button>
+        </div>
+</body>
+</html>
